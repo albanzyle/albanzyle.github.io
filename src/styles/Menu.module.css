@@ -12,7 +12,7 @@
 
 .logo{
     display: flex;
-    flex-direction: column;
+    flex-direction: coflumn;
     text-align: left;
     justify-content: center;
     padding: 1vw 0;
@@ -138,7 +138,7 @@
 }
 
 .no-scroll {
-    overflow: hidden;
+    overflow: hidden !important;
 }
 .cross{
     color: #fff;
