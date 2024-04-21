@@ -93,7 +93,7 @@
     display: flex;
     justify-content: start;
     color: rgba(255, 255, 255);
-    background-color: #333;
+    background-color: #000000;
     width: 100%;
     cursor: pointer;
 }
@@ -112,7 +112,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 70%;
+    width: 80%;
     height: 100%;
     flex-direction: column;
     /* justify-content: start; */
@@ -125,7 +125,7 @@
 }
 
 .menuItems h1 {
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     margin: 10px 30px;
     cursor: pointer;
@@ -187,15 +187,17 @@
 
 hr{
     color: white;
-    width: 80%;
+    width: 70%;
     margin-left: 40px;
+    margin-right: 100px;
+
 }
 
 .logoMobile{
     font-size: 8px;
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
     /* padding-top: 10px; */
 }
 
