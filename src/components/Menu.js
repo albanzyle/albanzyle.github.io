@@ -98,7 +98,7 @@ const Menu = () => {
     return (
         <>
         {!showMenu && (<div className={styles.menuButton}>
-            <FiMenu onClick={toggleMenu} className={styles.iconMenu} />
+            <FiMenu  onClick={toggleMenu}className={styles.iconMenu} />
             <div className={styles.logoMobile}>
                 <h1>TOKA</h1>
                 <h1>CONSTRUCTION</h1>
