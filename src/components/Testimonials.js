@@ -5,30 +5,32 @@ import testimonialImage2 from '../assets/user2.webp';
 import testimonialImage3 from '../assets/user3.webp';
 
 const Testimonials = () => {
-    // Dummy data for testimonials
-    const testimonialsData = [
-        {
-            id: 1,
-            name: "John Doe",
-            company: "ABC Construction",
-            comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum felis quis risus luctus, id laoreet elit eleifend. Donec euismod urna in erat finibus, sed malesuada velit interdum.",
-            image: testimonialImage1
-        },
-        {
-            id: 2,
-            name: "Jane Smith",
-            company: "XYZ Builders",
-            comment: "Nullam vitae est a risus pharetra elementum. Aliquam vel ante quis mi volutpat fermentum. Curabitur quis neque elit.",
-            image: testimonialImage2
-        },
-        {
-            id: 3,
-            name: "David Johnson",
-            company: "123 Contractors",
-            comment: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut sollicitudin metus.",
-            image: testimonialImage3
-        }
-    ];
+// Testimonials data for a construction company website
+const testimonialsData = [
+    {
+        id: 1,
+        name: "Jane Smith",
+        company: "ABC Construction",
+        comment: "Jane Smith provided a glowing review for our services. She mentioned how our team's attention to detail and expertise impressed her. Her project was completed smoothly, thanks to our efficient work.",
+        image: testimonialImage1 // Image of Jane Smith (not shown here)
+    },
+    {
+        id: 2,
+        name: "David Johnson",
+        company: "XYZ Builders",
+        comment: "David Johnson appreciated our professionalism and timely delivery. He highlighted how our team went the extra mile to meet his expectations. His experience with XYZ Builders was exceptional.",
+        image: testimonialImage2 // Image of David Johnson (not shown here)
+    },
+    {
+        id: 3,
+        name: "Emily Brown",
+        company: "123 Contractors",
+        comment: "Emily Brown praised our communication skills and project management. She found our team easy to work with and appreciated the quality of our workmanship. 123 Contractors exceeded her expectations.",
+        image: testimonialImage3 // Image of Emily Brown (not shown here)
+    }
+];
+
+
 
     return (
         <div id="testimonials" className={styles.testimonials}>
