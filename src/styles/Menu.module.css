@@ -12,7 +12,7 @@
 
 .logo{
     display: flex;
-    flex-direction: coflumn;
+    flex-direction: column;
     text-align: left;
     justify-content: center;
     padding: 1vw 0;
