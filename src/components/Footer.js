@@ -15,6 +15,15 @@ const Footer = () => {
             <p className={styles.contactInfo}>
                 Tel: (646) 330-3584 | Fax: (347) 597-5615 | Email: adrian@tokaconstruction.com | Web: www.tokaconstruction.com
             </p>
+            {/* <p className={styles.contactInfo}>
+                Tel: (646) 330-3584 | Fax: (347) 597-5615
+            </p>
+            <p className={styles.contactInfo}>
+                Email: adrian@tokaconstruction.com 
+            </p>
+            <p className={styles.contactInfo}>
+                Web: www.tokaconstruction.com
+            </p> */}
         </footer>
     );
 }

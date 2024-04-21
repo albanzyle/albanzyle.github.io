@@ -127,7 +127,7 @@
 .menuItems h1 {
     font-size: 15px;
     color: #fff;
-    margin: 10px 30px;
+    margin: 10px 10px;
     cursor: pointer;
     transition: color 0.3s;
     padding-left: 30px;
@@ -159,7 +159,7 @@
     font-size: 25px;
     padding-left: 30px;
     cursor: pointer;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .number{
@@ -188,16 +188,15 @@
 hr{
     color: white;
     width: 70%;
-    margin-left: 40px;
-    margin-right: 100px;
+    margin-left: 25px;
+    /* margin-right: 100px; */
 
 }
 
 .logoMobile{
     font-size: 8px;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
+    position: absolute;
+    width: 100%;
     /* padding-top: 10px; */
 }
 
