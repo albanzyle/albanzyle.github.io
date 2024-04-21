@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.64fd4d32.css",
-    "main.js": "/static/js/main.feca359e.js",
+    "main.css": "/static/css/main.2becbb7e.css",
+    "main.js": "/static/js/main.55db27c9.js",
     "static/js/453.2ed2b612.chunk.js": "/static/js/453.2ed2b612.chunk.js",
     "static/media/naomi-hebert-MP0bgaS_d1c-unsplash.jpg": "/static/media/naomi-hebert-MP0bgaS_d1c-unsplash.595733ea4a18f0c8070d.jpg",
     "static/media/slide1.png": "/static/media/slide1.68def623c94e41cc90a8.png",
@@ -22,12 +22,12 @@
     "static/media/user1.webp": "/static/media/user1.6a020cb63e184f9fb4f9.webp",
     "static/media/user2.webp": "/static/media/user2.fa70a26cf40ab46ff225.webp",
     "index.html": "/index.html",
-    "main.64fd4d32.css.map": "/static/css/main.64fd4d32.css.map",
-    "main.feca359e.js.map": "/static/js/main.feca359e.js.map",
+    "main.2becbb7e.css.map": "/static/css/main.2becbb7e.css.map",
+    "main.55db27c9.js.map": "/static/js/main.55db27c9.js.map",
     "453.2ed2b612.chunk.js.map": "/static/js/453.2ed2b612.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64fd4d32.css",
-    "static/js/main.feca359e.js"
+    "static/css/main.2becbb7e.css",
+    "static/js/main.55db27c9.js"
   ]
 }
