@@ -106,9 +106,6 @@
     z-index: 1;
 }
 
-.iconMenu:hover{
-    color: #ffffff87;
-}
 
 .menuItems {
     display: flex;
