@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.33c31f84.css",
-    "main.js": "/static/js/main.db5dba63.js",
+    "main.js": "/static/js/main.d1aea2da.js",
     "static/js/453.2ed2b612.chunk.js": "/static/js/453.2ed2b612.chunk.js",
     "static/media/naomi-hebert-MP0bgaS_d1c-unsplash.jpg": "/static/media/naomi-hebert-MP0bgaS_d1c-unsplash.595733ea4a18f0c8070d.jpg",
     "static/media/slide1.png": "/static/media/slide1.68def623c94e41cc90a8.png",
@@ -23,11 +23,11 @@
     "static/media/user2.webp": "/static/media/user2.fa70a26cf40ab46ff225.webp",
     "index.html": "/index.html",
     "main.33c31f84.css.map": "/static/css/main.33c31f84.css.map",
-    "main.db5dba63.js.map": "/static/js/main.db5dba63.js.map",
+    "main.d1aea2da.js.map": "/static/js/main.d1aea2da.js.map",
     "453.2ed2b612.chunk.js.map": "/static/js/453.2ed2b612.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33c31f84.css",
-    "static/js/main.db5dba63.js"
+    "static/js/main.d1aea2da.js"
   ]
 }
