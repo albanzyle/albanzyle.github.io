@@ -1,0 +1,145 @@
+.menu{
+    display: flex;
+    color: rgba(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.666);
+    font-size: 0.6vw;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding: 1vw 0;
+    font-size: 0.8vw;
+    margin-left: 8%;
+}
+
+.logo> h1{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 8%;
+    width: 80%;
+    padding: 1.5vw 0;
+}
+
+.up,
+.down{
+    display: flex;
+    align-items: center;
+}
+.down{
+    justify-content: end;
+}
+.icon{
+    font-size: 2vw;
+    cursor: pointer;
+}
+.up{
+    justify-content: end;
+    padding-bottom: 1vw;
+}
+
+.up > h1{
+    padding-left: 1%;
+    margin: 0;
+}
+
+.down > h1{
+    padding-left: 5%;
+    margin: 0;
+
+}
+.iconHome{
+    font-size: 2vw;
+    color: rgba(255, 255, 255, 0.601);
+}
+.down > h1{
+    cursor: pointer;
+}
+
+.down > h1:hover,
+.icon:hover{
+    color: rgba(255, 255, 255, 0.601);
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.moto{
+    position: absolute;
+    font-size: 2vw;
+    top: 50%;
+    background-color:rgba(0, 0, 0, 0.466);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-left: 9.5vw;
+    padding: 1vw 3vw;
+}
+
+.menuButton {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255);
+    background-color: #333;
+    width: 100%;
+    cursor: pointer;
+}
+
+.iconMenu{    
+    font-size: xx-large;
+    padding: 25px;
+}
+
+.iconMenu:hover{
+    color: #ffffff87;
+}
+
+.menuItems {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    background-color: #000000;
+    padding: 100px 0;
+    /* padding-top: 50%;  */
+}
+
+.menuItems h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.menuItems h1:hover {
+    color: #f0f0f0;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .image{
+        /* width: 130%; */
+    }
+}

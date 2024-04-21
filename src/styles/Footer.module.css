@@ -1,0 +1,32 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: translateY(-3px);
+    color: #ffffff99;
+}
+
+.copy {
+    font-size: 14px;
+    margin: 0;
+}
+
+.contactInfo {
+    font-size: 14px;
+    margin-top: 20px;
+}
