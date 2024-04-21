@@ -5,6 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { FiPhone, FiMenu  } from "react-icons/fi";
 import styles from '../styles/Menu.module.css'
 import { TiHome } from "react-icons/ti";
+import { RxCross2 } from "react-icons/rx";
 
 const Menu = () => {
     const [showMenu, setShowMenu] = useState(true);
@@ -100,12 +101,25 @@ const Menu = () => {
             <FiMenu className={styles.iconMenu} />
         </div>)}
         {menuOpen && (
-                <div className={styles.menuItems}>
-                    <h1 onClick={handleAboutUsClick}>ABOUT US</h1>
-                    <h1 onClick={handleServicesClick}>SERVICES</h1>
-                    <h1 onClick={handleTestimonialsClick}>TESTIMONIALS</h1>
-                    <h1 onClick={handleContactClick}>CONTACT</h1>
-                </div>
+                <>  
+                    <div onClick={toggleMenu} className={styles.blur}/>
+                    <div className={styles.menuItems}>
+                         <RxCross2 onClick={toggleMenu} className={styles.cross}/>
+                        <h1 onClick={handleAboutUsClick}>ABOUT US</h1>
+                        <hr/>
+                        <h1 onClick={handleServicesClick}>SERVICES</h1>
+                        <hr/>
+                        <h1 onClick={handleTestimonialsClick}>TESTIMONIALS</h1>
+                        <hr/>
+                        <h1 onClick={handleContactClick}>CONTACT</h1>
+                        <hr/>
+                        <div className={styles.number}>
+                            <FiPhone onClick={handlePhoneIconClick} className={styles.menuIcon}/>
+                            <h1>(646) 330-3584</h1>
+                        </div>
+                        <hr/>
+                    </div>
+                </>
             )}
         {showMenu && (
                 <div className={styles.menu}>
