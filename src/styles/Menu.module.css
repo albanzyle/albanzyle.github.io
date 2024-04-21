@@ -93,7 +93,7 @@
     display: flex;
     justify-content: start;
     color: rgba(255, 255, 255);
-    background-color: #000000;
+    background-color: #333;
     width: 100%;
     cursor: pointer;
 }
@@ -189,4 +189,17 @@ hr{
     color: white;
     width: 80%;
     margin-left: 40px;
+}
+
+.logoMobile{
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* padding-top: 10px; */
+}
+
+.logoMobile >h1{
+    margin: 0;
+    padding-top: 10px;
 }
