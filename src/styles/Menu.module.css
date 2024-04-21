@@ -161,8 +161,11 @@
     display: block;
     font-size: 25px;
     padding-left: 30px;
-    cursor: default;
+    cursor: pointer;
     margin-left: 10px;
+}
+.menuIcon:hover{
+    color: #ababab;
 }
 
 .number{
@@ -175,6 +178,10 @@
     cursor: default;
     margin: 10px 0 ;
     padding-left: 10px;
+}
+
+.number >h1:hover{
+    color: rgb(255, 255, 255);
 }
 
 .blur{
