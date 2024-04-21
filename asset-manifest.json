@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33c31f84.css",
+    "main.js": "/static/js/main.db5dba63.js",
+    "static/js/453.2ed2b612.chunk.js": "/static/js/453.2ed2b612.chunk.js",
+    "static/media/naomi-hebert-MP0bgaS_d1c-unsplash.jpg": "/static/media/naomi-hebert-MP0bgaS_d1c-unsplash.595733ea4a18f0c8070d.jpg",
+    "static/media/slide1.png": "/static/media/slide1.68def623c94e41cc90a8.png",
+    "static/media/framing.png": "/static/media/framing.4731414c56cc4642ac10.png",
+    "static/media/stairs.png": "/static/media/stairs.6bd55c49641bb1f48700.png",
+    "static/media/premium_photo-1680382578857-c331ead9ed51.avif": "/static/media/premium_photo-1680382578857-c331ead9ed51.3405ef2be86cbcbab02e.avif",
+    "static/media/landscape.avif": "/static/media/landscape.ee93903494251da6d276.avif",
+    "static/media/woodwork.avif": "/static/media/woodwork.8d5e8d9d005d1b31baa6.avif",
+    "static/media/roofing.avif": "/static/media/roofing.abccf612500165e2b22f.avif",
+    "static/media/tiles.avif": "/static/media/tiles.8470080001a054079d59.avif",
+    "static/media/sheetrocks.webp": "/static/media/sheetrocks.bfed4e800c6130733020.webp",
+    "static/media/woodfloors.avif": "/static/media/woodfloors.ef887a88e74ac57a28cb.avif",
+    "static/media/bathroom.avif": "/static/media/bathroom.51f0d7db8cd94bb8becc.avif",
+    "static/media/elestric.png": "/static/media/elestric.28f52426dedc58f010a2.png",
+    "static/media/floors.avif": "/static/media/floors.b3ecbb4068441dbae9de.avif",
+    "static/media/painting.avif": "/static/media/painting.6bdfb81bb550e1090f8c.avif",
+    "static/media/user3.webp": "/static/media/user3.b8d69eb8f7610d1f64ae.webp",
+    "static/media/user1.webp": "/static/media/user1.6a020cb63e184f9fb4f9.webp",
+    "static/media/user2.webp": "/static/media/user2.fa70a26cf40ab46ff225.webp",
+    "index.html": "/index.html",
+    "main.33c31f84.css.map": "/static/css/main.33c31f84.css.map",
+    "main.db5dba63.js.map": "/static/js/main.db5dba63.js.map",
+    "453.2ed2b612.chunk.js.map": "/static/js/453.2ed2b612.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33c31f84.css",
+    "static/js/main.db5dba63.js"
+  ]
+}
