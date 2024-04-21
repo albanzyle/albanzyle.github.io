@@ -8,20 +8,28 @@ import { TiHome } from "react-icons/ti";
 import { RxCross2 } from "react-icons/rx";
 
 const Menu = () => {
-    const [showMenu, setShowMenu] = useState(true);
+    const [showMenu, setShowMenu] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
-    useEffect(() => {
-        const handleResize = () => {
-            if (window.innerWidth < 768) {
-                setShowMenu(false);
-            } else {
-                setShowMenu(true);
-            }
-        };
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
+
+    // Function to handle window resize
+    const handleResize = () => {
+        if (window.innerWidth < 768) {
+            setShowMenu(false);
+        } else {
+            setShowMenu(true);
+        }
+    };
     
+    // Add event listener when component mounts
+    useEffect(() => {
+        handleResize(); // Initial check
+        window.addEventListener('resize', handleResize);
+        return () => {
+            // Clean up: remove event listener when component unmounts
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []); 
+
     const handleAboutUsClick = () => {
         // Get the element you want to scroll to
         const aboutUsSection = document.getElementById("aboutUsSection");
